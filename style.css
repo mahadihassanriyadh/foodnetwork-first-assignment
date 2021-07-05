@@ -1,0 +1,52 @@
+body{
+    font-family: 'Heebo', sans-serif;
+}
+.blue-color{
+    color: blue;
+}
+
+.h1-margin{
+    margin: 0;
+}
+
+.blue-button{
+    text-decoration: none;
+    background-image: linear-gradient(rgb(60, 0, 255), rgb(0, 217, 255));
+    color: white;
+    padding: 10px 15px;
+    font-size: 25px;
+    font-weight: bold;
+    border-radius: 25px;
+    box-shadow: 0 0 15px grey;
+}
+
+#div-positioning{
+    padding-top: 8%;
+}
+
+div h1{
+    font-size: 500%;
+}
+.flexible-style{
+    display: flex;
+}
+
+.half-width{
+    width: 50%;
+}
+
+.half-width p{
+    font-size: 150%;
+    padding-bottom: 10px;
+}
+
+#first-img-padd{
+    /* padding-left: 100px; */
+    margin-left: 15%;
+}
+
+#first-section{
+    margin-left: 5%;
+    margin-top: 2%;
+    
+}
