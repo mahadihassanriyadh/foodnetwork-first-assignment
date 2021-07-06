@@ -35,6 +35,10 @@ header{
     padding: 8px 20px;
     border-radius: 25px;
 }
+.head-button:hover{
+    background-image: linear-gradient(rgb(0, 139, 19), rgb(123, 255, 0));
+}
+
 .head-button a{
     color: white;
     font-size: 100%;
@@ -59,6 +63,9 @@ header{
     font-weight: bold;
     border-radius: 60px;
     box-shadow: 0 0 15px grey;
+}
+.blue-button:hover{
+    background-image: linear-gradient(rgb(0, 139, 19), rgb(123, 255, 0));
 }
 
 #div-sec1-positioning{
@@ -195,21 +202,28 @@ div h1{
 #foot-edit{
     text-align: center;
     margin-top: 8%;
-    background-image: linear-gradient(blue, blue);
+    background-image: linear-gradient(#c3e9fc, #35b7f8);
     padding-bottom: 3%;
     padding-top: 2%;
 }
 
 #foot-edit h2{
-    font-size: 210%;
+    font-size: 300%;
     margin-bottom: 0;
-    color: white;
+    color: rgb(0, 0, 0);
 }
 
 #foot-edit p{
     font-size: 120%;
     margin-top: 0;
-    color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+}
+
+#foot-edit span{
+    background: linear-gradient(to right, rgb(0, 0, 93), #2d00f8);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
 }
 
 #subscribe-sec{
@@ -233,11 +247,67 @@ div h1{
     box-shadow: 0 0 20px grey;
 }
 
-#submit-button{
+/* #submit-button{
     height: 35px;
     width: 120px;
     border: 2px solid white;
     margin-left: 3%;
     font-size: 150%;
     border-radius: 25px;
+} */
+
+#form-2 input[type=text], textarea {
+    width: 95%;
+    padding: 12px;
+    border: 2px solid #ccc;
+    border-radius: 10px;
+    box-sizing: border-box;
+    margin-top: 10px;
+    margin-bottom: 16px;
+    margin: auto;
+    
+  }
+
+  #form-2 input, textarea{
+    display: block;
 }
+
+  #form-2 label{
+      margin-left: 20px;
+      margin-top: 50px;
+  }
+
+    input[type=submit] {
+    background-color: blue;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+
+    input[type=submit]:hover {
+    background-color: #00ff00;
+    color: black;
+  }
+
+  #form-2 input[type=submit]{
+    /* margin-top: 20px;
+    margin-left: 20px; */ 
+    margin: auto;
+    margin-top: 20px;
+  }
+  #share-thoughts{
+      text-align: center;
+      font-size: 180%;
+      margin-top: 5%;
+  }
+  #form-2 {
+    border-radius: 15px;
+    background-color: #f2f2f2;
+    padding: 20px;
+    width: 40%;
+    margin: auto;
+    margin-top: 5px;
+  }
+
