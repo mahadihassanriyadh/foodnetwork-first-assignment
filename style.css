@@ -171,3 +171,33 @@ div h1{
     margin-top: 0;
     color: rgb(255, 255, 255);
 }
+
+#subscribe-sec{
+    text-align: center;
+    margin-top: 8%;
+    /* background-image: linear-gradient(skyblue, skyblue); */
+    background-image: url(images/bg-2nd-section.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    padding: 10%
+}
+
+#subscribe-sec p{
+    font-size: 130%;
+    margin-right: 10%;
+}
+#email{
+    padding: 15px;
+    border: 10px solid black;
+    border-radius: 30px;
+    box-shadow: 0 0 20px grey;
+}
+
+#submit-button{
+    height: 35px;
+    width: 120px;
+    border: 2px solid white;
+    margin-left: 3%;
+    font-size: 150%;
+    border-radius: 25px;
+}
