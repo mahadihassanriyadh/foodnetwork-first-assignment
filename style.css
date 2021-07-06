@@ -13,14 +13,14 @@ body{
     text-decoration: none;
     background-image: linear-gradient(rgb(60, 0, 255), rgb(0, 217, 255));
     color: white;
-    padding: 10px 15px;
-    font-size: 25px;
+    padding: 15px 25px;
+    font-size: 35px;
     font-weight: bold;
     border-radius: 25px;
     box-shadow: 0 0 15px grey;
 }
 
-#div-positioning{
+#div-sec1-positioning{
     padding-top: 8%;
 }
 
@@ -38,6 +38,7 @@ div h1{
 .half-width p{
     font-size: 150%;
     padding-bottom: 10px;
+    text-align: justify;
 }
 
 #first-img-padd{
@@ -49,4 +50,33 @@ div h1{
     margin-left: 5%;
     margin-top: 2%;
     
+}
+
+#second-section{
+    margin-top: 10%;
+    background-image: url(images/bg-2nd-section.jpg);
+    background-repeat: no;
+    background-image: fixed;
+}
+
+#second-img{
+    padding-top: 20%;
+    width: 70%;
+}
+
+.half-width h2{
+    font-size: 300%;
+}
+
+#div-sec2-positioning{
+    margin-left: 10%;
+    margin-right: 5%;
+}
+
+#div-sec2-positioning h2{
+    margin-top: 35%;
+}
+
+#div-sec2-positioning p{
+    margin-bottom: 15%;
 }
